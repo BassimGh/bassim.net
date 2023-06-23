@@ -36,17 +36,18 @@
             showDots: false
             });
         </script>
-        <div class="w-screen h-screen p-5 sm:flex lg:items-center justify-center">
+        <div class=" h-screen p-5 sm:flex sm:items-center justify-center items-center">
             
-            <div class="relative mx-auto my-10 w-fit h-20 pr-5 bg-cyan-950 rounded-2xl shadow-lg flex items-center">
+            
+            <div class="sm:absolute top-10 relative mx-auto my-10 w-fit h-20 pr-5 bg-cyan-950 rounded-2xl shadow-lg flex items-center">
                 <img src="../img/pfp.jpeg" class="absolute translate-x-[-50%] bg-red-600 w-28 h-28 rounded-full shadow-lg"></img>
                 <div class="ml-20">
                     <p class="text-cyan-300 font-light text-xs">Simon Fraser University</p>
-                    <h2 class="text-gray-100 text-lg">Software Systems undegrad</h2>
+                    <h2 class="text-gray-100 text-lg">Software Systems undergrad</h2>
                 </div>
             </div>
 
-            <div class="max-w-xl w-full h-96 relative lg:bottom-16 bg-[#131236] bg-opacity-60 rounded-2xl shadow-lg">
+            <div class="max-w-xl w-full h-96 relative bg-[#131236] bg-opacity-60 rounded-2xl shadow-lg">
                 <div class="w-full bg-[#272342] bg-opacity-60 h-10 flex items-center rounded-t-2xl">
                     <div class="bg-red-600 w-4 h-4 mx-1 rounded-full inline-block my-auto ml-3"></div>
                     <div class="bg-yellow-500 w-4 h-4 mx-1 rounded-full inline-block my-auto"></div>
@@ -82,36 +83,26 @@
                 </div>
             </div>
 
-            <div class="hidden">
-                <div class="relative w-fit h-20 pr-5 bg-cyan-950 rounded-2xl shadow-lg flex items-center">
-                    <img src="../img/pfp.jpeg" class="absolute translate-x-[-50%] bg-red-600 w-28 h-28 rounded-full shadow-lg"></img>
-                    <div class="ml-20">
-                        <p class="text-cyan-300 font-light text-xs">Simon Fraser University</p>
-                        <h2 class="text-gray-100 text-lg">Software Systems undegrad</h2>
-                    </div>
-                </div>
-    
-                <div class="p-5 bg-cyan-950 rounded-2xl flex flex-wrap shadow-xl">
-                    <div class="sm:p-5">
-                        <ul>
-                            <li class="w-full font-mono text-sm text-gray-400">
-                                <i class="fa-solid fa-angle-right"></i>
-                                Technologies I use
-                            </li>
-                            <li class="w-full font-mono text-sm text-gray-400">
-                                <i class="fa-solid fa-angle-right"></i>
-                                Projects
-                            </li>
-                            <li class="w-full font-mono text-sm text-gray-400">
-                                <i class="fa-solid fa-angle-right"></i>
-                                Work experience
-                            </li>
-                            <li class="w-full font-mono text-sm text-gray-400">
-                                <i class="fa-solid fa-angle-right"></i>
-                                Contact Info
-                            </li>
-                        </ul>
-                    </div>
+            <div class="sm:block hidden">
+                <div class="px-3 w-fit bg-cyan-950 rounded-2xl flex flex-wrap space-y-5 shadow-xl -translate-x-5">
+                    <ul class="space-y-1 divide-y divide-gray-600">
+                        <li class="py-3 px-1 w-full font-mono text-lg text-gray-400">
+                            <i class="fa-solid fa-angle-right"></i>
+                            Technologies I use
+                        </li>
+                        <li class="py-3 px-1 w-full font-mono text-lg text-gray-400">
+                            <i class="fa-solid fa-angle-right"></i>
+                            Projects
+                        </li>
+                        <li class="py-3 px-1 w-full font-mono text-lg text-gray-400">
+                            <i class="fa-solid fa-angle-right"></i>
+                            Work experience
+                        </li>
+                        <li class="py-3 px-1 w-full font-mono text-lg text-gray-400">
+                            <i class="fa-solid fa-angle-right"></i>
+                            Contact Info
+                        </li>
+                    </ul>
                 </div>
             </div>
 
@@ -156,7 +147,7 @@
             </h2>
         </div> -->
 
-        <div class="font-bold m-auto text-cyan-300 text-3xl w-fit pt-5">
+        <div class="font-bold m-auto text-cyan-300 text-3xl w-fit py-5">
             My Work
         </div>
 
@@ -172,7 +163,7 @@
             <img class="sm:hidden rounded-2xl shadow-xl w-full" src="../img/gifs/monaLisa.gif" alt="">
         </div>
 
-        <div class="mx-auto sm:max-w-xl max-w-sm sm:flex-nowrap sm:h-52 sm:p-0 p-5 px-8 bg-cyan-950 m-5 rounded-2xl flex flex-wrap items-center shadow-xl">
+        <div class="mx-auto sm:max-w-xl max-w-sm sm:flex-nowrap sm:h-52 sm:p-0 p-5 px-8 m-5 mt-8 bg-cyan-950 rounded-2xl flex flex-wrap items-center shadow-xl">
             <!-- <img class="sm:block hidden rounded-l-2xl shadow-xl h-full" src="../img/gifs/monaLisa.gif" alt=""> -->
             <div class="sm:flex w-96 hidden h-full relative shadow-xl">
                 <img class="rounded-l-2xl w-1/2 object-cover origin-center" src="../img/gifs/ev3Map.gif" alt="">
@@ -192,7 +183,7 @@
             </div>
         </div>
 
-        <div class="mx-auto sm:max-w-xl max-w-sm sm:flex-nowrap sm:h-52 sm:p-0 p-5 px-8 bg-cyan-950 m-5 rounded-2xl flex flex-wrap items-center shadow-xl">
+        <div class="mx-auto sm:max-w-xl max-w-sm sm:flex-nowrap sm:h-52 sm:p-0 p-5 px-8 m-5 mt-8 bg-cyan-950 rounded-2xl flex flex-wrap items-center shadow-xl">
             <img class="sm:block w-96 hidden rounded-l-2xl shadow-xl h-full" src="../img/gifs/game.gif" alt="">
             <div class="sm:p-5 w-full">
                 <h4 class="sm:block  hidden text-xs font-mono text-yellow-400">C++</h4>
@@ -206,53 +197,51 @@
 
         <!-- ---------------------------------- -->
 
-        <div class="bg-black bg-opacity-20">
-            <div class="font-bold m-auto text-cyan-300 text-3xl w-fit px-5">
-                Work Experience
-            </div>
+        <div class="font-bold mx-auto pt-20 text-cyan-300 text-3xl w-fit px-5">
+            Work Experience
+        </div>
 
-            
-            <!-- <div class="ml-5 p-2 bg-white w-32 rounded-b-none rounded-2xl">
+        
+        <!-- <div class="ml-5 p-2 bg-white w-32 rounded-b-none rounded-2xl">
+            <img class="w-full" src="../img/logos/vopay.png">
+        </div> -->
+
+        <div class="sm:mx-auto max-w-lg relative bg-cyan-950 mt-10 m-5 pt-8 p-5 px-5 rounded-2xl flex flex-wrap shadow-xl">
+            <div class="absolute top-0 right-0 translate-y-[-50%] translate-x-2 p-3 bg-gray-400 w-32 rounded-full shadow-2xl">
                 <img class="w-full" src="../img/logos/vopay.png">
-            </div> -->
+            </div>
+            <div class="w-full">
+                <h3 class="w-full font-mono text-white text-xl">Software Engineer Intern</h3>
+                <p class="font-mono pt-1 text-cyan-300 text-xs">May - Aug 2022</p>
+                
+                <ul class="pl-3 py-5 w-full font-mono text-xs text-gray-400 font-light list-disc space-y-2">
+                    <li>
+                        Implemented dynamic web pages from figma designs
+                    </li>
+                    <li>
+                        Updated wordpress SEO data
+                    </li>
+                </ul>
+                
+            </div>
+            <div class="border-t border-gray-500 w-full my-5"></div>
+            <div class="w-full">
+                <h3 class="w-full font-mono text-white text-xl">
+                    Full Stack Developer
+                </h3>
+                <p class="font-mono pt-1 text-cyan-300 text-xs">
+                    May - Aug 2022
+                </p>
+                
+                <ul class="pl-3 py-5 w-full font-mono text-xs text-gray-400 font-light list-disc space-y-2">
+                    <li>
+                        Created new API endpoints
+                    </li>
+                    <li>
+                        Implemented UI components in react
+                    </li>
+                </ul>
 
-            <div class="sm:mx-auto max-w-lg relative bg-cyan-950 mt-10 m-5 pt-8 p-5 px-5 rounded-2xl flex flex-wrap shadow-xl">
-                <div class="absolute top-0 right-0 translate-y-[-50%] translate-x-2 p-3 bg-gray-400 w-32 rounded-full shadow-2xl">
-                    <img class="w-full" src="../img/logos/vopay.png">
-                </div>
-                <div class="w-full">
-                    <h3 class="w-full font-mono text-white text-xl">Software Engineer Intern</h3>
-                    <p class="font-mono pt-1 text-cyan-300 text-xs">May - Aug 2022</p>
-                    
-                    <ul class="pl-3 py-5 w-full font-mono text-xs text-gray-400 font-light list-disc space-y-2">
-                        <li>
-                            Implemented dynamic web pages from figma designs
-                        </li>
-                        <li>
-                            Updated wordpress SEO data
-                        </li>
-                    </ul>
-                    
-                </div>
-                <div class="border-t border-gray-500 w-full my-5"></div>
-                <div class="w-full">
-                    <h3 class="w-full font-mono text-white text-xl">
-                        Full Stack Developer
-                    </h3>
-                    <p class="font-mono pt-1 text-cyan-300 text-xs">
-                        May - Aug 2022
-                    </p>
-                    
-                    <ul class="pl-3 py-5 w-full font-mono text-xs text-gray-400 font-light list-disc space-y-2">
-                        <li>
-                            Created new API endpoints
-                        </li>
-                        <li>
-                            Implemented UI components in react
-                        </li>
-                    </ul>
-
-                </div>
             </div>
         </div>
 
