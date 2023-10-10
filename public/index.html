@@ -17,8 +17,8 @@
         <title>Bassim G</title>
 
         <link href="./css/base.css" rel="stylesheet">
-        <link href="./css/output.css" rel="stylesheet">
-        <!-- <link href="./css/build.css" rel="stylesheet"> -->
+        <!-- <link href="./css/output.css" rel="stylesheet"> -->
+        <link href="./css/build.css" rel="stylesheet">
         <link href="arrowStyle.css" rel="stylesheet">
 
         <script src="https://cdn.jsdelivr.net/npm/typed.js@latest/lib/typed.min.js"></script>
@@ -26,8 +26,8 @@
         <script src="./js/main.js"></script>
 
         <!-- background animation -->
-        <script src="/public/js/three.r134.min.js"></script>
-        <script src="/public/js/vanta.net.min.js"></script>
+        <script src="./js/three.r134.min.js"></script>
+        <script src="./js/vanta.net.min.js"></script>
 
         <!-- fontawesome -->
         <script src="https://kit.fontawesome.com/5234636861.js" crossorigin="anonymous"></script>
@@ -162,7 +162,14 @@
         </div>
 
         <div class="hover:scale-105 transition-transform ease-in-out duration-300 mx-auto sm:max-w-xl max-w-sm sm:flex-nowrap sm:h-52 sm:p-0 p-5 px-8 bg-cyan-950 m-5 rounded-2xl flex flex-wrap items-center shadow-xl">
-            <img class="sm:block w-96 hidden rounded-l-2xl shadow-xl h-full" src="./img/gifs/monaLisa.gif" alt="">
+            <!-- <img class="sm:block w-96 hidden rounded-l-2xl shadow-xl h-full" src="./media/gifs/monaLisa.gif" alt=""> -->
+            <div class="sm:block w-96 hidden shadow-xl h-full relative overflow-hidden">
+                <video class="absolute top-0 left-0 w-full h-full object-cover rounded-l-2xl" autoplay muted loop playsinline>
+                    <source src="./media/videos/monaLisa.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
             <div class="sm:p-5">
                 <h4 class="sm:block hidden text-xs font-mono text-yellow-400">Python</h4>
                 <h3 class="sm:text-left pb-2 w-full font-mono text-center text-white text-md">Image Reconstruction</h3>
@@ -170,11 +177,25 @@
                     Genetic algorithm manipulates ellipse properties to resemble an input image
                 </p>
             </div>
-            <img class="sm:hidden rounded-2xl shadow-xl w-full" src="./img/gifs/monaLisa.gif" alt="">
+            <!-- <img class="sm:hidden rounded-2xl shadow-xl w-full" src="./media/gifs/monaLisa.gif" alt=""> -->
+            <div class="sm:hidden shadow-xl w-full h-72 relative overflow-hidden">
+                <video class="absolute top-0 left-0 w-full h-full object-cover rounded-2xl" autoplay muted loop playsinline>
+                    <source src="./media/videos/monaLisa.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            
         </div>
 
         <div class="hover:scale-105 transition-transform ease-in-out duration-300 mx-auto sm:max-w-xl max-w-sm sm:flex-nowrap sm:h-52 sm:p-0 p-5 px-8 m-5 mt-8 bg-cyan-950 rounded-2xl flex flex-wrap items-center shadow-xl">
-            <img class="sm:block w-96 hidden rounded-l-2xl shadow-xl h-full" src="./img/gifs/ev3Turn.gif" alt="">
+            <!-- <img class="sm:block w-96 hidden rounded-l-2xl shadow-xl h-full" src="./media/gifs/ev3Turn.gif" alt=""> -->
+            <div class="sm:block w-96 hidden shadow-xl h-full relative overflow-hidden">
+                <video class="absolute top-0 left-0 w-full h-full object-cover rounded-l-2xl" autoplay muted loop playsinline>
+                    <source src="./media/videos/ev3demo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>            
+            
             <div class="sm:p-5 w-full">
                 <h4 class="sm:block  hidden text-xs font-mono text-yellow-400">Robot C</h4>
                 <h3 class="sm:text-left pb-2 w-full font-mono text-center text-white text-md">Ev3 Autopilot</h3>
@@ -182,11 +203,25 @@
                     Depth-first pathfinding algorithm finds the shortest path between any arbitrary start and endpoint on the maze
                 </p>
             </div>
-            <img class="sm:hidden rounded-2xl shadow-xl w-full" src="./img/gifs/ev3Turn.gif" alt="">
+            <!-- <img class="sm:hidden rounded-2xl shadow-xl w-full" src="./media/gifs/ev3Turn.gif" alt=""> -->
+
+            <div class="sm:hidden shadow-xl w-full h-72 relative overflow-hidden">
+                <video class="absolute top-0 left-0 w-full h-full object-cover rounded-2xl" autoplay muted loop playsinline>
+                    <source src="./media/videos/ev3demo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
         </div>
         
         <div class="hover:scale-105 transition-transform ease-in-out duration-300 mx-auto sm:max-w-xl max-w-sm sm:flex-nowrap sm:h-52 sm:p-0 p-5 px-8 m-5 mt-8 bg-cyan-950 rounded-2xl flex flex-wrap items-center shadow-xl">
-            <img class="sm:block w-96 hidden rounded-l-2xl shadow-xl h-full" src="./img/gifs/game.gif" alt="">
+            <!-- <img class="sm:block w-96 hidden rounded-l-2xl shadow-xl h-full" src="./media/gifs/game.gif" alt=""> -->
+            <div class="sm:block w-96 hidden shadow-xl h-full relative overflow-hidden">
+                <video class="absolute top-0 left-0 w-full h-full object-cover rounded-l-2xl" autoplay muted loop playsinline>
+                    <source src="./media/videos/coronaJumpDemo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div> 
+
             <div class="sm:p-5 w-full">
                 <h4 class="sm:block  hidden text-xs font-mono text-yellow-400">
                     C#
@@ -197,11 +232,17 @@
                 <p class="sm:text-left pb-5 w-full font-mono text-xs text-center text-gray-400">
                     Unity 2D mobile game made with C#
                 </p>
-                <a href="./coronaJump/coronaJump.html" target="_blank" class="rounded bg-yellow-400 hover:bg-yellow-600 text-[#131236] font-mono py-2 px-4">
+                <a href="./coronaJump/coronaJump.html" target="_blank" class="hidden sm:block rounded bg-yellow-400 hover:bg-yellow-600 text-[#131236] font-mono py-2 px-4">
                     Play Demo
                 </a>
             </div>
-            <img class="sm:hidden rounded-2xl shadow-xl w-full" src="./img/gifs/game.gif" alt="">
+            <!-- <img class="sm:hidden rounded-2xl shadow-xl w-full" src="./media/gifs/game.gif" alt=""> -->
+            <div class="sm:hidden shadow-xl w-full h-72 relative overflow-hidden">
+                <video class="absolute top-0 left-0 w-full h-full object-cover rounded-2xl" autoplay muted loop playsinline>
+                    <source src="./media/videos/coronaJumpDemo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
         </div>
 
         <!-- ---------------------------------- -->
@@ -210,14 +251,10 @@
             Work Experience
         </div>
 
-        
-        <!-- <div class="ml-5 p-2 bg-white w-32 rounded-b-none rounded-2xl">
-            <img class="w-full" src="./img/logos/vopay.png">
-        </div> -->
 
         <div class="hover:scale-105 transition-transform ease-in-out duration-300 sm:mx-auto max-w-lg relative bg-cyan-950 mt-10 m-5 pt-8 p-5 px-5 rounded-2xl flex flex-wrap shadow-xl">
             <div class="absolute top-0 right-0 translate-y-[-50%] translate-x-2 p-3 bg-gray-400 w-32 rounded-full shadow-2xl">
-                <img class="w-full" src="./img/logos/vopay.png">
+                <img class="w-full" src="./media/logos/vopay.png">
             </div>
             <div class="w-full">
                 <h3 class="w-full font-mono text-white text-xl">Software Engineer Intern</h3>
