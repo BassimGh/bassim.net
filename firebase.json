@@ -8,10 +8,6 @@
     ],
     "rewrites": [
       {
-        "source": "/coronaJump",
-        "destination": "/coronaJump/demo.html"
-      },
-      {
         "source": "**",
         "destination": "/index.html"
       }

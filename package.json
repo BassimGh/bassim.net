@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "update-css": "npx tailwindcss build -o ./public/css/output.css -w",
-    "build-css": "npx tailwindcss -o build.css --minify"
+    "build-css": "npx tailwindcss -o ./public/css/build.css --minify"
   },
   "keywords": [],
   "author": "",
