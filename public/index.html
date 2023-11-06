@@ -22,36 +22,22 @@
         <link href="./css/build.css" rel="stylesheet">
         <link href="arrowStyle.css" rel="stylesheet">
 
-        <script src="./js/main.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/typed.js@latest/lib/typed.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/typed.js@latest/lib/typed.min.js"></script>
+        
+        <script defer src="./js/main.js"></script>
         
         <!-- background animation -->
-        <script src="./js/three.r134.min.js"></script>
-        <script src="./js/vanta.net.min.js"></script>
+        <script defer src="./js/three.r134.min.js"></script>
+        <script defer src="./js/vanta.net.min.js"></script>
 
         <!-- fontawesome -->
-        <script src="https://kit.fontawesome.com/5234636861.js" crossorigin="anonymous"></script>
+        <script defer src="https://kit.fontawesome.com/5234636861.js" crossorigin="anonymous"></script>
     </head>
 
-    <body class="m-0 p-0">
+    <body class="m-0 p-0" style="background-color: #23153c">
         <div class="fixed top-0 h-screen w-screen" style="z-index: -1" id="frontPage"></div>
-        <script>VANTA.NET({
-            el: "#frontPage",
-            mouseControls: true,
-            touchControls: true,
-            gyroControls: false,
-            minHeight: 100.00,
-            minWidth: 100.00,
-            scale: 1.00,
-            scaleMobile: 1.00,
-            color: 0x8c8787,
-            points: 15.00,
-            maxDistance: 15.00,
-            spacing: 14.00,
-            showDots: false
-            });
-        </script>
+        <script defer src="./js/bg.js"></script>
         <div class=" h-screen p-5 sm:flex sm:items-center justify-center items-center">
 
             <div class="max-w-xl w-full h-96 relative bg-[#131236] bg-opacity-60 rounded-2xl shadow-lg">
@@ -130,7 +116,7 @@
             </div>
 
         </div>
-        <script src="./js/terminal.js"></script>
+        <script defer src="./js/terminal.js"></script>
         </div>
 
         <div class="w-full h-20 bg-gradient-to-b opacity-75 from-transparent to-indigo-950"></div>
